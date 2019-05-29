@@ -1,7 +1,7 @@
 {
   "name": "Promote Team Dinner Assistant",
   "version": "0.1",
-  "description": "Bon Appétit",
+  "description": "Our mission is to help everyone find their food on GrubHub",
   "manifest_version": 2,
   "background": {
       "scripts": [
