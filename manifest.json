@@ -12,7 +12,8 @@
       "default_icon": {}
   },
   "permissions": [
-      "tabs",
-      "debugger"
+    "*://*.grubhub.com/*",
+    "tabs",
+    "debugger"
   ]
 }
