@@ -11,18 +11,19 @@ function displayWidget(managed_delivery) {
   const text = managed_delivery === 'yes' ? 'IS' : 'IS NOT'
   const color = 'white'
   el.setAttribute("style", `
-        position:absolute;
+        position:fixed;
         top: 30px;
         right: 30px;
         color: ${color};
-        font-size: 20px;
+        font-size: 40px;
         background: ${bg};
         border: 1px solid #ccc !important;
         padding: 0.3em 16px;
         border-radius: 15px;
         z-index: 999999;
+        max-width: 1000px;
     `);
-  el.innerHTML = `<h3>Promote Buddy: This restaurant ${text} using grubhub managed delivery</h3>`;
+  el.innerHTML = `<div>Promote Buddy: This restaurant ${text} using grubhub managed delivery</div>`;
   setTimeout(function () {
     document.body.appendChild(el);
     console.log(el)
