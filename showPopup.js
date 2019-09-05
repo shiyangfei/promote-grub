@@ -15,7 +15,7 @@ function displayWidget(managed_delivery) {
         top: 30px;
         right: 30px;
         color: ${color};
-        font-size: 40px;
+        font-size: 30px;
         background: ${bg};
         border: 1px solid #ccc !important;
         padding: 0.3em 16px;
